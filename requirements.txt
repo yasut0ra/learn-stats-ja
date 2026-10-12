@@ -1,0 +1,9 @@
+# サイトのビルド（バージョンを固定）
+mkdocs==1.6.1
+mkdocs-material==9.7.7
+pymdown-extensions==12.2
+
+# 図の生成
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.9

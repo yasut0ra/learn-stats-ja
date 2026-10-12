@@ -1,0 +1,19 @@
+Copyright (c) 2026 yasut0ra
+
+The text and figures of "やさしく学ぶ統計学 ― 記述統計から数理統計まで"
+(the contents of the `docs/` directory, except `docs/javascripts/` and
+`docs/stylesheets/`) are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+You are free to share and adapt the material for any purpose, even
+commercially, as long as you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+Full license text:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+Summary (Japanese):
+  https://creativecommons.org/licenses/by/4.0/deed.ja
+
+Suggested attribution:
+  yasut0ra「やさしく学ぶ統計学 ― 記述統計から数理統計まで」
+  https://github.com/yasut0ra/learn-stats-ja (CC BY 4.0)

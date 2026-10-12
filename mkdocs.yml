@@ -1,0 +1,124 @@
+site_name: やさしく学ぶ統計学 ― 記述統計から数理統計まで
+site_description: 初学者向けの統計学入門。図とシミュレーションで直感をつかみ、数理統計学の基礎（推定・検定の理論）までしっかり学べる日本語の無料教材。
+site_author: yasut0ra
+site_url: https://yasut0ra.github.io/learn-stats-ja/
+repo_url: https://github.com/yasut0ra/learn-stats-ja
+repo_name: yasut0ra/learn-stats-ja
+edit_uri: edit/main/docs/
+copyright: "&copy; 2026 yasut0ra — 本文は CC BY 4.0、コードは MIT ライセンス"
+
+theme:
+  name: material
+  language: ja
+  font:
+    text: Noto Sans JP
+    code: JetBrains Mono
+  icon:
+    logo: material/chart-bell-curve
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードに切り替え
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search:
+      lang: ja
+      separator: '[\s\-　、。，．・「」（）]+'
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+  - javascripts/demos.js
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/demos.css
+
+nav:
+  - ホーム: index.md
+  - この教材の使い方: guide.md
+  - 第1部 データを要約する:
+      - 第1章 データの種類と可視化: part1/01-data-visualization.md
+      - 第2章 代表値と散らばり: part1/02-summary-statistics.md
+      - 第3章 2つの変数の関係: part1/03-correlation.md
+  - 第2部 確率と確率分布:
+      - 第4章 確率の基本: part2/04-probability.md
+      - 第5章 確率変数と確率分布: part2/05-random-variables.md
+      - 第6章 期待値と分散: part2/06-expectation.md
+      - 第7章 代表的な離散分布: part2/07-discrete-distributions.md
+      - 第8章 代表的な連続分布: part2/08-continuous-distributions.md
+      - 第9章 多次元の確率分布: part2/09-multivariate.md
+      - 第10章 確率変数の変換: part2/10-transformation.md
+  - 第3部 極限定理:
+      - 第11章 大数の法則: part3/11-law-of-large-numbers.md
+      - 第12章 中心極限定理: part3/12-central-limit-theorem.md
+  - 第4部 推測統計:
+      - 第13章 母集団と標本分布: part4/13-sampling-distributions.md
+      - 第14章 点推定: part4/14-point-estimation.md
+      - 第15章 区間推定: part4/15-interval-estimation.md
+      - 第16章 仮説検定の考え方: part4/16-hypothesis-testing.md
+      - 第17章 いろいろな検定: part4/17-various-tests.md
+  - 第5部 統計モデリング:
+      - 第18章 回帰分析: part5/18-regression.md
+      - 第19章 分散分析: part5/19-anova.md
+      - 第20章 ベイズ統計入門: part5/20-bayes.md
+  - 付録:
+      - 付録A 数学の準備: appendix/math.md
+      - 付録B 確率分布一覧: appendix/distributions.md
+      - 付録C 記号と用語: appendix/glossary.md
+      - 付録D 参考文献と次のステップ: appendix/references.md
