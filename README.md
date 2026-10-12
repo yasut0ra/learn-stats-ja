@@ -32,6 +32,7 @@
 ## 統計検定との対応
 
 [統計検定](https://www.toukei-kentei.jp/)の各級の出題範囲表と、この教材の各章の対応です。
+サイトの[付録D](https://yasut0ra.github.io/learn-stats-ja/appendix/references/#toukei-kentei)にも、各章へのリンクつきで同じ表を載せています。
 
 - ◎：章の中心的な内容が、その級の出題範囲表に含まれる
 - ○：一部の節だけが含まれる（どの節かは下の「級ごとの読み方」）
