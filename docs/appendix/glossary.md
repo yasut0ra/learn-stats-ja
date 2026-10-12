@@ -39,28 +39,40 @@
 |---|---|---|---|
 | i.i.d.（独立同分布） | independent and identically distributed | 互いに独立で、同じ分布に従うこと | 9 |
 | 一致推定量 | consistent estimator | 標本を増やすと真の値に確率収束する推定量 | 14 |
+| 回帰分析 | regression analysis | 説明変数で目的変数の平均的な変化を説明するモデル | 18 |
+| 確率変数 | random variable | 偶然によって値が決まる変数（標本空間上の関数） | 5 |
+| 期待値 | expectation | 「値 × 確率」の和（積分）。分布の重心 | 6 |
 | 帰無仮説 | null hypothesis | 検定で否定することを目指して立てる仮説 | 16 |
 | 共分散 | covariance | 2変数の偏差の積の平均。関係の向きを表す | 3, 9 |
 | 共役事前分布 | conjugate prior | 事後分布が事前分布と同じ種類になる事前分布 | 20 |
+| 決定係数 | coefficient of determination | 目的変数の変動のうち回帰で説明できる割合 | 18 |
 | 検出力 | power | 対立仮説が正しいときに帰無仮説を棄却できる確率 | 16 |
 | 交絡因子 | confounder | 2つの変数の両方に影響し、見かけの関係を生む変数 | 3 |
 | 最尤推定量 | maximum likelihood estimator | 尤度を最大にする母数の値 | 14 |
 | 残差 | residual | 実際の値と予測値の差 | 18 |
+| 事後分布 | posterior distribution | データを観測した後の母数の分布 | 20 |
+| 事前分布 | prior distribution | データを観測する前の母数の分布 | 20 |
 | 四分位範囲 | interquartile range | 第3四分位数 − 第1四分位数 | 2 |
 | 自由度 | degrees of freedom | 自由に値をとれる量の個数 | 13 |
-| 信頼区間 | confidence interval | くり返すと一定割合で母数を含む区間 | 15 |
+| 条件付き確率 | conditional probability | ある事象が起きたという条件のもとでの確率 | 4 |
 | 信用区間 | credible interval | 事後分布にもとづく、母数を一定確率で含む区間 | 20 |
+| 信頼区間 | confidence interval | くり返すと一定割合で母数を含む区間 | 15 |
 | 正規分布 | normal distribution | 釣り鐘型の連続分布。ガウス分布 | 8 |
 | 積率母関数 | moment generating function | $E[e^{tX}]$。微分するとモーメントが得られる | 6 |
 | 尖度 | kurtosis | 分布の裾の重さを表す指標 | 6 |
 | 相関係数 | correlation coefficient | 直線的な関係の強さ。$-1$ から $1$ | 3, 9 |
+| 第1種の過誤 | type I error | 正しい帰無仮説を誤って棄却すること | 16 |
 | 大数の法則 | law of large numbers | 標本平均が母平均に収束すること | 11 |
-| 中心極限定理 | central limit theorem | 標本平均の分布が正規分布に近づくこと | 12 |
+| 第2種の過誤 | type II error | 誤った帰無仮説を棄却できないこと | 16 |
 | 中央値 | median | 小さい順に並べたときの真ん中の値 | 2 |
+| 中心極限定理 | central limit theorem | 標本平均の分布が正規分布に近づくこと | 12 |
 | 統計量 | statistic | 標本から計算される量 | 13 |
 | 独立 | independent | 一方の情報が他方の確率に影響しないこと | 4, 9 |
+| $p$ 値 | $p$-value | 帰無仮説のもとで観測値以上に極端な値が出る確率 | 16 |
 | 標準誤差 | standard error | 推定量の標準偏差 | 13 |
+| 標準偏差 | standard deviation | 分散の正の平方根。データと同じ単位をもつ | 2, 6 |
 | 標本分布 | sampling distribution | 統計量の確率分布 | 13 |
+| フィッシャー情報量 | Fisher information | 対数尤度の曲率の期待値。データに含まれる母数の情報量 | 14 |
 | 不偏推定量 | unbiased estimator | 期待値が母数に等しい推定量 | 14 |
 | 不偏分散 | unbiased variance | $n - 1$ で割った分散 | 13 |
 | 分散 | variance | 平均からの偏差の2乗の平均 | 2, 6 |
@@ -72,5 +84,4 @@
 | 有意水準 | significance level | 帰無仮説を棄却する基準の確率 | 16 |
 | 有効推定量 | efficient estimator | 分散がクラメール・ラオの下限に達する不偏推定量 | 14 |
 | 尤度 | likelihood | データを固定し、母数の関数とみた確率（密度） | 14 |
-| $p$ 値 | $p$-value | 帰無仮説のもとで観測値以上に極端な値が出る確率 | 16 |
 | 歪度 | skewness | 分布の左右の非対称さを表す指標 | 6 |

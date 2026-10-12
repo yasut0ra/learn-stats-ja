@@ -83,7 +83,7 @@ $$
     r = \frac{s_{xy}}{s_x\, s_y} = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n}(x_i - \bar{x})^2}\sqrt{\sum_{i=1}^{n}(y_i - \bar{y})^2}}
     $$
 
-    を（ピアソンの）**相関係数**（correlation coefficient）といいます。
+    を（ピアソンの）**相関係数**（correlation coefficient）といいます。$x$ か $y$ のどちらかがすべて同じ値（標準偏差が 0）のときは定義されません。
 
 上の5組のデータでは、$s_x^2 = 10/5 = 2$、$s_y^2 = 6/5 = 1.2$ なので
 
